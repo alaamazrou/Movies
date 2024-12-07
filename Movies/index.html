@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">MovieDB</div>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search movies...">
+            <button class="search-button" onclick="searchMovie()">Search</button>
+        </div>
+    </nav>
+
+    <!-- Our Films Section -->
+    <section class="section" id="our-films">
+        <h2>Our Films</h2>
+        <div class="cards-container">
+            <!-- Movie Cards -->
+            <div class="card">
+                <img src="./photos/Casper.jpeg" alt="Movie 1">
+                <h3>Movie Name : Casper</h3>
+            </div>
+            <div class="card">
+                <img src="./photos/download (1).jpeg" alt="Movie 2">
+                <h3>Movie Name : Titanic</h3>
+            </div>
+            <div class="card">
+                <img src="./photos/download (2).jpeg" alt="Movie 3">
+                <h3>Movie Name : Jumanji</h3>
+            </div>
+            <div class="card">
+                <img src="./photos/MIGHTYPRINT Harry Potter and the Sorcerer's Stone 20th Anniversary – Durable 17” x 24 Wall Art – NOT Made of Paper – Officially Licensed Collectible.jpeg" alt="Movie 4">
+                <h3>Movie Name : Harry Potter</h3>
+            </div>
+            <div class="card">
+                <img src="./photos/Scary Halloween Movies for Tweens & Teens.jpeg" alt="Movie 5">
+                <h3>Movie Name : Monster House</h3>
+            </div>
+            <div class="card">
+                <img src="./photos/The 40 Best Romantic Christmas Movies To Watch With Your Love.jpeg" alt="Movie 6">
+                <h3>Movie Name : Home Alone</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Films Section -->
+    <section class="section" id="new-films">
+        <h2>New Films</h2>
+        <div class="cards-container">
+            <!-- New Movie Cards -->
+            <div class="card">
+                <img src="./photos/Trends International DC Comics Movie - The Dark Knight - Batman Logo on Fire One Sheet Wall Poster, 22_375_ x 34_, Premium Unframed Version.jpeg" alt="New Movie 1">
+                <h3>Movie Name: The Dark Knight</h3>
+                <p>Description of the movie 1.</p>
+                <p><strong>Release Date: </strong>2024</p>
+            </div>
+            <div class="card">
+                <img src="./photos/Dark (Netflix, 2017 - ) Dos temporadas, 18 episodios, 60 minutos aproximadamente_.jpeg" alt="New Movie 2">
+                <h3>Movie Name : Dark</h3>
+                <p>Description of the movie 2.</p>
+                <p><strong>Release Date: </strong>2024</p>
+            </div>
+            <div class="card">
+                <img src="./photos/download (5).jpeg" alt="New Movie 3">
+                <h3>Movie Name : Inception</h3>
+                <p>Description of the movie 3.</p>
+                <p><strong>Release Date: </strong>2024</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="section" id="categories">
+        <h2>Categories</h2>
+        <div class="cards-container">
+            <!-- Category Cards -->
+            <div class="category-card">
+                <div class="card">
+                    <img src="./photos/A movie logo stock vector_ Illustration of comedy, round - 35102546.jpeg" alt="Action">
+                    <h3>Action</h3>
+                </div>
+            </div>
+            <div class="category-card">
+                <div class="card">
+                    <img src="./photos/A movie logo stock vector_ Illustration of comedy, round - 35102546.jpeg" alt="Action">
+                    <h3>Comedy</h3>
+                </div>
+            </div>
+            <div class="category-card">
+                <div class="card">
+                    <img src="./photos/A movie logo stock vector_ Illustration of comedy, round - 35102546.jpeg" alt="Action">
+                    <h3>Drama</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <h2>Let Your Message Here</h2>
+        <textarea rows="4" cols="50" placeholder="Write your message here..."></textarea>
+        <br><br>
+        <button class="button" onclick="sendMessage()">Send Message</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 MovieDB. All rights reserved.</p>
+    </footer>
+
+<script defer src="./script.js"></script>
+</body>
+</html>
